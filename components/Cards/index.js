@@ -26,3 +26,8 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .catch( err => {
         console.log("Error:", err);
     })
+    function articleCard(article){
+        const card = document.createElement("div")
+
+        card.classList.add("card")
+    }
